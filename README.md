@@ -1,10 +1,10 @@
 # mesh-sound-guess
 
-[![pages](https://img.shields.io/badge/live-baditaflorin.github.io%2Fmesh-sound-guess-7c3aed)](https://baditaflorin.github.io/mesh-sound-guess/)
+[![pages](https://img.shields.io/badge/live-baditaflorin.github.io%2Fmesh-sound-guess-df7a32)](https://baditaflorin.github.io/mesh-sound-guess/)
 [![version](https://img.shields.io/badge/version-0.1.0-blue)](https://github.com/baditaflorin/mesh-sound-guess/blob/main/package.json)
 [![license](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 
-> An accessible browser-local shared sound and emoji clue guessing game.
+> A shared, voice-free sound clue game for quick, accessible room play.
 
 **Live → https://baditaflorin.github.io/mesh-sound-guess/**
 
@@ -30,7 +30,7 @@ Read the principles → **https://baditaflorin.github.io/rootless-computing/prin
 
 ## Quickstart
 
-Open the live URL on two devices in the same room (set in ⚙ settings, or scan the room QR). Everything else is in-app.
+Open the live URL on two devices in the same room (set in **Settings**, or scan the room QR). Everything else is in-app.
 
 For local hacking:
 
@@ -63,9 +63,9 @@ The settings drawer lets the user override signaling and TURN endpoints. localSt
 
 If endpoints are blank or unreachable, the app falls back to STUN-only.
 
-## Version + commit on every screen
+## Product metadata
 
-The bottom-right footer on every screen of the live app shows:
+**Settings → About** keeps the release details available without competing with the game’s first screen:
 
 - `source` → this repo
 - `tip ♥` → PayPal
