@@ -8,7 +8,9 @@ describe("Feature (component)", () => {
   it("renders a playable accessible guessing game when connected", () => {
     const room = createMockRoom();
     render(<Feature room={room} config={config} />);
-    expect(screen.getByRole("heading", { level: 1 })).toHaveTextContent("Hear it in your head");
+    expect(screen.getByRole("heading", { level: 1 })).toHaveTextContent("Hear the clue");
+    expect(screen.getByLabelText("Live sound round")).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "Start the first clue" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Everyone’s guesses" })).toBeInTheDocument();
   });
 
