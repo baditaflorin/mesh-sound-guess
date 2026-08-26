@@ -2,6 +2,7 @@ import { createMeshConfig } from "@baditaflorin/mesh-common";
 
 export const config = createMeshConfig({
   appName: "mesh-sound-guess",
+  breadcrumbs: false,
   displayName: "Sound Guess",
   visualProfile: "play",
   shellLayout: "inset",
